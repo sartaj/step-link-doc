@@ -1,0 +1,41 @@
+{
+	"nodes": [
+		{
+			"name": "Understand",
+			"category": "Inspiration",
+			"linksTo": ["Observe", "Define", "Ideate"]
+		}, {
+			"name": "Observe",
+			"category": "Inspiration",
+			"linksTo": ["Understand", "Define"]
+		}, {
+			"name": "Define",
+			"category": "Inspiration",
+			"linksTo": ["Ideate", "Prototype"]
+		}, {
+			"name": "Ideate",
+			"category": "Ideation",
+			"linksTo": ["Observe", "Prototype", "Story Telling"]
+		}, {
+			"name": "Prototype",
+			"category": "Ideation",
+			"linksTo": ["Define", "Test"]
+		}, {
+			"name": "Test",
+			"category": "Ideation",
+			"linksTo": ["Define", "Story Telling"]
+		}, {
+			"name": "Story Telling",
+			"category": "Implementation",
+			"linksTo": ["Prototype", "Pilot"]
+		}, {
+			"name": "Pilot",
+			"category": "Implementation",
+			"linksTo": ["Story Telling", "Business Model"]
+		}, {
+			"name": "Business Model",
+			"category": "Implementation",
+			"linksTo": ["Test", "Pilot"]
+		}
+	]
+}
