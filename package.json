@@ -13,7 +13,7 @@
     "event-emitter": "^0.3.3",
     "immutable-store": "^0.5.1",
     "jquery": "^2.1.4",
-    "lodash": "^3.10.0",
+    "lodash": "^4.17.5",
     "marked": "^0.3.3"
   }
 }
